@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+body{
+  background-color: #1E1E1E;
+  width: 100;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fira Code', monospace;
+}
+.Home{
+  width: 90vw;
+}
+.navbarwrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarwrapper h1{
+  color: white;
+}
+.navbarwrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_links li a{
+  color: white;
+  text-decoration: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0 1em;
+  color: white;
+}
+span{
+  color: purple;
+}
+.herowrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.herp_img_wrapper{
+  position: relative;
+}
+.herp_img_wrapper .profilepic{
+ width: 70vmin;
+}
+.dots1{
+  top: 20%;
+  left: 15%;
+  position: absolute;
+}
+.dots2{
+  bottom: 20%;
+  right: 15%;
+  position: absolute;
+}
