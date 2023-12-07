@@ -34,7 +34,7 @@ body{
   color: white;
 }
 span{
-  color: purple;
+  color: rgb(159, 106, 159);
 }
 .herotext h2{
   color: white;
@@ -47,7 +47,7 @@ span{
 }
 .herotext button{
   background-color: transparent;
-  border: 2px solid rgb(143, 52, 143);
+  border: 2px solid rgb(159, 106, 159);
   line-height: 3;
   min-width: 25vmin;
   max-width: 35vmin;
@@ -66,7 +66,7 @@ span{
 .purple_box{
   width: 3vmin;
   height: 3vmin;
-  background-color: blueviolet;
+  background-color: rgb(159, 106, 159);
   margin-right:1em ;
 }
 .text{
@@ -81,6 +81,8 @@ span{
 .quote_wrapper{
   position: relative;
   height: 7.3em;
+  margin-top: 5%;
+
 }
 
 .legend_two{
@@ -109,4 +111,31 @@ span{
   bottom: 20%;
   right: 15%;
   position: absolute;
+}
+.homeProjects_head{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%; 
+
+}
+.homeProjects_head_two{
+  font-size: 3vmin;
+}
+.homeProjects_head_one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vmin;
+  width: fit-content;
+  height: fit-content;
+}
+.homeProjects_head_one p, .homeProjects_head_one h2{
+  margin: 0;
+}
+#line_design{
+  margin-left: 5px;
+  background-color: rgb(159, 106, 159);
+  height: 2px;
+  width: 13em;
 }
