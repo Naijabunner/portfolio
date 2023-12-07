@@ -11,12 +11,13 @@ const Hero = () => {
         <div className="herp_img_wrapper">
             <img src={Burna} alt="Daniel" className="profilepic" />
             <div className="text">
-                <p></p>
-                <p></p>
+                <p className="purple_box"></p>
+                <p>Currently working on my <span>portfolio</span></p>
             </div>
             <img src={Dots} alt="Dots" className="dots1"/>
             <img src={Dots} alt="Dots" className="dots2"/>
         </div>
+        
     </section>
     </> );
 }

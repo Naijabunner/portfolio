@@ -6,6 +6,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Fira Code', monospace;
+  color: rgb(255, 255, 255);
 }
 .Home{
   width: 90vw;
@@ -35,16 +36,69 @@ body{
 span{
   color: purple;
 }
+.herotext h2{
+  color: white;
+  font-size: 8vmin;
+  font-weight: bold;
+}
+.herotext p{
+  color: white;
+  font-size: 3vmin;
+}
+.herotext button{
+  background-color: transparent;
+  border: 2px solid rgb(143, 52, 143);
+  line-height: 3;
+  min-width: 25vmin;
+  max-width: 35vmin;
+  font-family: 'Fira Code', monospace;
+  padding: 0 0.5em;
+  color: white;
+  font-size: 4vmin;
+  font-weight: bold;
+}
 .herowrapper{
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.purple_box{
+  width: 3vmin;
+  height: 3vmin;
+  background-color: blueviolet;
+  margin-right:1em ;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+  font-size: 3vmin;
+  color: #878686;
+  border: 2px solid rgb(175, 172, 172);
+}
+.quote_wrapper{
+  position: relative;
+  height: 7.3em;
+}
+
+.legend_two{
+   background-color: #1E1E1E;
+
+}
+.fieldset_two{
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
 }
 .herp_img_wrapper{
   position: relative;
 }
 .herp_img_wrapper .profilepic{
- width: 70vmin;
+ width: 80vmin;
 }
 .dots1{
   top: 20%;
