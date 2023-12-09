@@ -8,7 +8,7 @@ body{
   font-family: 'Fira Code', monospace;
   color: rgb(255, 255, 255);
 }
-.Home{
+.wrapper{
   width: 80vw;
 }
 .navbarwrapper{
@@ -254,6 +254,12 @@ span{
   color: #878686;
   font-size: 5vmin;
 }
+.copyright{
+  display: flex;
+  justify-content: center;
+  font-size: 2vmin;
+  color: #878686;
+}
 
 
 
@@ -262,7 +268,7 @@ span{
   #root{
     width: 80vw;
   }
-  .Home{
+  .wrapper{
     width: 80vw;
   }
   .nav_links li {

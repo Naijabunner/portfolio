@@ -6,7 +6,7 @@ import HomeProjects from "./homeprojects";
 import Quote from "./quote";
 
 const Home = () => {
-    return ( <div className="Home">
+    return ( <div className="wrapper">
         <Hero/>
         <Quote/>
         <HomeProjects/>
