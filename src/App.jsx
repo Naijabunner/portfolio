@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 import Navbar from "./components/Navbar";
 import Routepages from "./react-router/app_router";
 function App() {
