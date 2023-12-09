@@ -1,4 +1,4 @@
-import Hero from "./hero";
+import Hero from "./Herocomponet";
 import Homeskills from "./homeSkills";
 import Homeabout from "./homeabout";
 import Homecontact from "./homecontact";
