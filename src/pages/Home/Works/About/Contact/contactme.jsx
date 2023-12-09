@@ -5,7 +5,7 @@ const Contactcomp = () => {
             <h2> <span>/</span>contact</h2>
             <p>Get in touch...</p>
         </div>
-        .
+        
     </div></> );
 }
  
