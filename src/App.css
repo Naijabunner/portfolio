@@ -9,7 +9,7 @@ body{
   color: rgb(255, 255, 255);
 }
 .Home{
-  width: 90vw;
+  width: 80vw;
 }
 .navbarwrapper{
   display: flex;
@@ -206,4 +206,115 @@ span{
   border: 2px solid rgb(139, 133, 133);
   align-items: center; 
  padding: 2em;
+}
+.footer_wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 2px solid rgb(107, 106, 106);
+}
+.footer_box_one{
+  font-size: 2vmin;
+}
+.footer_box_two {
+  font-size: 4vmin;
+  border: 2px solid rgb(85, 85, 82);
+  align-items: center; 
+ padding:1em 2em;
+}
+.footer_box_two h6, .social_icons_footer a{
+    margin: 0;
+}
+.social_icons_footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.social_icons_footer a{
+  text-decoration: none;
+  color: #878686;
+}
+.body_links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4vmin;
+  position: fixed;
+  top: 0;
+  left: 3%;
+}
+.line_design{
+  height: 10rem;
+  width: 2px;
+  background-color: antiquewhite;
+}
+.body_links a{
+  text-decoration: none;
+  color: #878686;
+  font-size: 5vmin;
+}
+
+
+
+/* for smaller screens */
+@media screen and (max-width: 1188px){
+  #root{
+    width: 80vw;
+  }
+  .Home{
+    width: 80vw;
+  }
+  .nav_links li {
+    display: inline-block;
+    padding: 0 1em;
+    color: white;
+  }
+.herotext{
+  margin-bottom: 1rem;
+}
+  .herotext button{
+    line-height: 2;
+  }
+  .herowrapper{
+    flex-direction: column;
+  }
+
+  .quote_wrapper{
+   display: none;
+  
+  }
+  .dd{
+     grid-template-columns: auto auto ;
+  }
+  .skils_home img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .skill_box_wrapper, .skils_home{
+    position: relative;
+  }
+  .skill_box{
+    z-index: 1;
+  }
+  .home_about_desc_wrapper,.contact_details,   .footer_wrapper{
+  flex-direction: column;
+  margin-bottom: 1em;
+  }
+}
+/* for mobile devices */
+@media screen and (max-width: 595px){
+  .skill_box_wrapper, .skils_home{
+  flex-direction: column;
+ }
+ .skils_home img{
+display: none; 
+}
+.dd{
+  grid-template-columns: auto ;
+}
+.body_links{
+  display: none;
+}
 }

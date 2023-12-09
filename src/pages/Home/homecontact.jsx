@@ -14,7 +14,7 @@ const Homecontact = () => {
             <p>Message me here</p>
           <a href="wa.link/v1952m"><i className="fa-brands fa-whatsapp"></i>+234 813 080 6204</a>
             <a href="mailto:Okechukwudaniel12@gmail.com"><i className="fa-regular fa-envelope"></i>Okechukwudaniel12@gmail.com</a>
-            <a href="www.linkedin.com/in/okechukwudaniel"><i className="fa-brands fa-linkedin-in"></i>Okechukwudaniel12@gmail.com</a>    
+            <a href="www.linkedin.com/in/okechukwudaniel"><i className="fa-brands fa-linkedin-in"></i>@Daniel Okechukwu</a>    
             </div>
             
 
