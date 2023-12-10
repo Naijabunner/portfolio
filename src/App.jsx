@@ -5,7 +5,7 @@ import Routepages from "./react-router/app_router";
 function App() {
   return (
     <>
-      <Navbar />
+      
       <Routepages/>
       <Footer />
       <div className="body_links">

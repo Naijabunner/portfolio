@@ -1,4 +1,5 @@
-const Navbar = () => {
+const Navbar = (props) => {
+
     return ( <>
     <nav className="navbarwrapper">
         <div>
@@ -8,10 +9,10 @@ const Navbar = () => {
         </div>
         <div className="nav_links">
             <ul>
-                <li><a href="/"><span>#</span>home</a></li>
-                <li><a href="/projects"><span>#</span>works</a></li>
-                <li><a href="/about"><span>#</span>About-me</a></li>
-                <li><a href="/contact"><span>#</span>Contacts</a></li>
+                <li ><a href="/"className="forHover" id={props.currentPage=== "home"? "active": undefined}><span>#</span>home</a></li>
+                <li ><a className="forHover" id={props.currentPage=== "project"? "active": undefined} href="/projects"><span>#</span>works</a></li>
+                <li ><a className="forHover" id={props.currentPage=== "about"? "active": undefined} href="/about"><span>#</span>About-me</a></li>
+                <li ><a className="forHover" id={props.currentPage=== "contact"? "active": undefined} href="/contact"><span>#</span>Contacts</a></li>
             </ul>
         </div>
     </nav>
