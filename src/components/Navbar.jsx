@@ -1,5 +1,9 @@
+import { useContext } from "react";
+import navBtn from "/src/assets/nav.png"
+import { navContext } from "../App";
 const Navbar = (props) => {
-
+    const navigationContext = useContext(navContext)
+    console.log(navigationContext)
     return ( <>
     <nav className="navbarwrapper">
         <div>
@@ -8,6 +12,7 @@ const Navbar = (props) => {
         </h1>
         </div>
         <div className="nav_links">
+                <img src={navBtn} alt="" onClick={()=>navigationContext.dispatch(true)}/>
             <ul>
                 <li ><a href="/"className="forHover" id={props.currentPage=== "home"? "active": undefined}><span>#</span>home</a></li>
                 <li ><a className="forHover" id={props.currentPage=== "project"? "active": undefined} href="/projects"><span>#</span>works</a></li>

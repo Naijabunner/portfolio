@@ -1,11 +1,21 @@
+import React,{ useReducer, useState } from "react";
 import "./App.css";
 import Footer from "./components/footer";
-import Navbar from "./components/Navbar";
+import Side from "./components/sidenav";
 import Routepages from "./react-router/app_router";
+const initialState = false
+const navigation = (state, action) => {
+  if (action) {
+    return true;
+  }
+};
+export const navContext = React.createContext();
 function App() {
+  const [navState, dispatch]= useReducer(navigation, initialState)
   return (
     <>
-      
+    <div className="app">
+     <navContext.Provider value={{navState, dispatch}}>
       <Routepages/>
       <Footer />
       <div className="body_links">
@@ -20,6 +30,11 @@ function App() {
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
+       <Side/>
+     </navContext.Provider>
+      
+    </div>
+      
     </>
   );
 }
