@@ -6,11 +6,10 @@ const Navbar = (props) => {
     console.log(navigationContext)
     return ( <>
     <nav className="navbarwrapper">
-        <div>
+        
         <h1>
             Okechukwu Daniel
         </h1>
-        </div>
         <div className="nav_links">
                 <img src={navBtn} alt="" onClick={()=>navigationContext.dispatch(true)}/>
             <ul>

@@ -419,6 +419,10 @@ span{
     display: grid;
     grid-template-columns: auto auto;
   }
+   nav img{
+  margin-top: 15px;
+
+ }
 }
 /* for mobile devices */
 @media screen and (max-width: 595px){
@@ -428,8 +432,11 @@ span{
   .skill_box_wrapper, .skils_home{
   flex-direction: column;
  }
+
+
  .skils_home img{
 display: none; 
+
 }
 .dd{
   grid-template-columns: auto ;
