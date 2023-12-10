@@ -287,6 +287,19 @@ span{
 #active{
   border-bottom: 2px solid rgb(104, 102, 102);
 }
+.skillboxes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.Skillbox{
+  border: 2px solid #878686 ;
+  margin: 5px;
+  padding: 5px;
+  word-spacing: 2px;
+}
+.aboutme_skills,.other_skills{
+  margin: 10% 0;
+}
 
 /* for smaller screens */
 @media screen and (max-width: 1100px){
@@ -333,6 +346,10 @@ span{
   flex-direction: column;
   margin-bottom: 1em;
   }
+  .skillboxes{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
 /* for mobile devices */
 @media screen and (max-width: 595px){
@@ -347,5 +364,9 @@ display: none;
 }
 .body_links{
   display: none;
+}
+.skillboxes{
+  display: grid;
+  grid-template-columns: auto;
 }
 }
