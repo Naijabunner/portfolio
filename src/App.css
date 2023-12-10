@@ -376,6 +376,7 @@ span{
     margin: 0 1em;
     color: white;
   }
+ 
   .nav_links img{
     display: block;
   }
@@ -421,6 +422,9 @@ span{
 }
 /* for mobile devices */
 @media screen and (max-width: 595px){
+   .navbarwrapper h1{
+    font-size: 4vmin;
+  } 
   .skill_box_wrapper, .skils_home{
   flex-direction: column;
  }
