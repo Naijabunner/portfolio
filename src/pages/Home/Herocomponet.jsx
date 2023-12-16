@@ -1,4 +1,5 @@
-import Burna from "/src/assets/burna_img.png";
+import Imghero from "/src/assets/Myimg01.jpeg"
+
 import Dots from "/src/assets/Dots.png";
 const Hero = () => {
     return ( <>
@@ -9,7 +10,7 @@ const Hero = () => {
             <button>Contact Me!!</button>
         </div>
         <div className="herp_img_wrapper">
-            <img src={Burna} alt="Daniel" className="profilepic" />
+            <img src={Imghero} alt="Daniel" className="profilepic" />
             <div className="text">
                 <p className="purple_box"></p>
                 <p>Currently working on my <span>portfolio</span></p>

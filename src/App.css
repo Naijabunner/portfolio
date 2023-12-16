@@ -122,7 +122,7 @@ span{
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 .purple_box{
   width: 3vmin;
@@ -364,7 +364,7 @@ span{
 
 
 /* for smaller screens */
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1400px){
   #root{
     width: 80vw;
   }
@@ -424,7 +424,11 @@ span{
 
  }
 }
+@media screen and (max-width: 1448px){
+    
+  }
 /* for mobile devices */
+  
 @media screen and (max-width: 595px){
    .navbarwrapper h1{
     font-size: 4vmin;
