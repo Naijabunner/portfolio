@@ -364,9 +364,12 @@ span{
 
 
 /* for smaller screens */
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1100px){
   #root{
     width: 80vw;
+  }
+  .herowrapper{
+    align-items: center; 
   }
   .nav_links img{
     display: none;
