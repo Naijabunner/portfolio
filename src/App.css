@@ -468,3 +468,7 @@ display: none;
   display: block;
 }
 }
+.cv_download{
+  color: #c9bfbf;
+  cursor: pointer;
+}

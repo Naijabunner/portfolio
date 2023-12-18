@@ -1,5 +1,5 @@
 import Imghero from "/src/assets/Myimg01.jpeg"
-
+import Resume from "/src/assets/OkechukwuDanielResume.pdf"
 import Dots from "/src/assets/Dots.png";
 const Hero = () => {
     return ( <>
@@ -7,7 +7,8 @@ const Hero = () => {
         <div className="herotext">
             <h2>Okechukwu Daniel is a <span>Front End Web App Developer</span> </h2>
             <p>Transforming Frontend Flourishes into Backend Brilliance: Fulfilling Digital Aspirations through the Art of Full Stack Wizardry.</p>
-            <button>Contact Me!!</button>
+            <a href={Resume} download ><button className="cv_download"> Download CV</button></a>
+            
         </div>
         <div className="herp_img_wrapper">
             <img src={Imghero} alt="Daniel" className="profilepic" />

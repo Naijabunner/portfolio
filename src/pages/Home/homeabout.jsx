@@ -2,6 +2,7 @@
 import Burna from "/src/assets/Myimg02.jpeg"
 import Dots from "/src/assets/Dots.png";
 
+
 const Homeabout = () => {
   return (
     <>
