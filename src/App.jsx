@@ -20,13 +20,13 @@ function App() {
       <Footer />
       <div className="body_links">
         <div className="line_design"></div>
-        <a href="wa.link/v1952m">
+        <a href="https://wa.me/8130806204" target="blank">
           <i className="fa-brands fa-whatsapp"></i>
         </a>
-        <a href="mailto:Okechukwudaniel12@gmail.com">
+        <a href="mailto:Okechukwudaniel12@gmail.com" target="blank">
           <i className="fa-regular fa-envelope"></i>
         </a>
-        <a href="www.linkedin.com/in/okechukwudaniel">
+        <a href="www.linkedin.com/in/okechukwudaniel" target="blank">
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
