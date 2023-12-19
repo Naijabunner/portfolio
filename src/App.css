@@ -144,6 +144,7 @@ span{
   font-size: 1em;
   color: #878686;
   border: 2px solid rgb(175, 172, 172);
+  margin-top: 5%;
 }
 .quote_wrapper{
   position: relative;
@@ -178,6 +179,7 @@ span{
  width: 100%;
  border-radius: 30px;
  max-height: 70vh;
+
 }
 .dots1{
   top: 10%;
