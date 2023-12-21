@@ -14,6 +14,16 @@ const HomeProjects = () => {
         </div>
          <div className="dd">
              <div className="d">
+                <div className="project_img"></div>
+                <div className="project_tools"></div>
+                <div className="project_innerWrapper">
+                    <h3 className="project_name"></h3>
+                    <p></p>
+                    <div className="btns_wrapper">
+                        <button className="github_btn"></button>
+                        <button className="live_btn"></button>
+                    </div>
+                </div>
                 qwertyuioccvbnm,vbnvbnm vbnmcvbnmcvbnmcvbnmvbnvbnmv bnvbnbnm
             </div>
             <div className="d">
