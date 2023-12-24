@@ -1,6 +1,5 @@
 
 import Burna from "/src/assets/Myimg02.jpeg"
-import Dots from "/src/assets/Dots.png";
 
 
 const Homeabout = () => {
@@ -42,9 +41,6 @@ const Homeabout = () => {
           </div>
           <div className="herp_img_wrapper">
             <img src={Burna} alt="Daniel" className="profilepic" />
-            
-            <img src={Dots} alt="Dots" className="dots1"/>
-            <img src={Dots} alt="Dots" className="dots2"/>
         </div>
         </div>
       </div>
