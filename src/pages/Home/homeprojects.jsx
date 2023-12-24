@@ -15,8 +15,8 @@ const HomeProjects = () => {
           <p>{project.notes}</p>
           <div className="btns_wrapper">
             
-            <button className="github_btn"><a href="/weed">GitHub {"<~~>"}</a> </button>
-            <button className="live_btn"><a href="/weed">Live {"<~~>"}</a> </button>
+            <button className="github_btn"><a href={project.github}target="_blank">GitHub {"<~~>"}</a> </button>
+            <button className="live_btn"><a href={project.live}target="_blank">Live {"<~~>"}</a> </button>
           </div>
         </div>
       </div>
