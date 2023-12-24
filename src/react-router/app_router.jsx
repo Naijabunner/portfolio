@@ -12,6 +12,7 @@ const Routepages = () => {
              <Route path="/projects" element = {<Projectcomp/>}/>
              <Route path="/about" element = {<Aboutcomp/>}/>
              <Route path="/contact" element = {<Contactcomp/>}/>
+             <Route path="*" element = {<Contactcomp/>}/>
         </Routes>
        
     </Router>

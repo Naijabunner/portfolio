@@ -208,7 +208,12 @@ span{
    position: absolute;
   top:  0;
   right: 0; 
+  color: rgb(255, 255, 255);
   font-size: 3vmin;
+}
+.homeProjects_head_two a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .homeProjects_head_one{
   position: relative;
@@ -238,6 +243,8 @@ span{
 .dd{
   position: relative;
    display: grid;
+   align-items: center;
+   margin-left: 5%;
    grid-template-columns: auto auto auto;
    gap:10px ;
   width: 70vw;
@@ -268,6 +275,11 @@ background: none;
 border: 1px solid #C778DD;
   margin-left:3%;
   margin-top:3%;
+}
+.project_innerWrapper a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+cursor: pointer;
 }
 .d{
   border: 2px solid rgb(146, 145, 145);

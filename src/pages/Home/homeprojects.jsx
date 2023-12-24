@@ -14,8 +14,9 @@ const HomeProjects = () => {
             <h3 className="project_name">{project.project_name}</h3>
           <p>{project.notes}</p>
           <div className="btns_wrapper">
-            <button className="github_btn">GitHub {"<~~>"}</button>
-            <button className="live_btn">Live {"<~~>"}</button>
+            
+            <button className="github_btn"><a href="/weed">GitHub {"<~~>"}</a> </button>
+            <button className="live_btn"><a href="/weed">Live {"<~~>"}</a> </button>
           </div>
         </div>
       </div>
@@ -33,7 +34,7 @@ const HomeProjects = () => {
             <p id="line_design"></p>
           </div>
           <div className="homeProjects_head_two">
-            <p>View all {"~~>"}</p>
+            <a href="/projects"><p>View all {"~~>"}</p></a>
           </div>
         </div>
         <div className="dd">{mappedProjects}</div>
