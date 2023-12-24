@@ -285,6 +285,7 @@ cursor: pointer;
   border: 2px solid rgb(146, 145, 145);
  width: 100%;
  min-height: 20rem;
+ padding-bottom: 1%;
 }
 .skill_box_wrapper, .skils_home{
   display: flex;

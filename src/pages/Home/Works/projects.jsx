@@ -18,7 +18,7 @@ const Projectcomp = () => {
           <div className="btns_wrapper">
             
             <button className="github_btn"><a href={project.github}target="_blank">GitHub {"<~~>"}</a> </button>
-            <button className="live_btn"><a href={project.live}target="_blank">Live {"<~~>"}</a> </button>
+            {project.live && <button className="live_btn"><a href={project.live}target="_blank">Live {"<~~>"}</a> </button>}
           </div>
         </div>
       </div>
