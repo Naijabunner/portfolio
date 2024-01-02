@@ -1,5 +1,26 @@
   @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-.nav_links img{
+img{
+  animation: onloadimg 1s ease-in 0s 1 ;
+}
+@keyframes onloadimg {
+  0%{
+    filter: blur(1rem);
+    
+ transform:translateY(-100px)
+  }
+
+  50%{
+    filter: blur(1rem);
+ transform:translateY(-50px);
+ transform: scaleX(1);
+  }
+  75%{
+    filter: blur(0.5rem);
+ transform:translateX(-25px);
+ transform: scaleX(1);
+  }
+}
+  .nav_links img{
   display: none;
   cursor: pointer;
 }
@@ -60,6 +81,8 @@ margin: 0 2rem;
   font-size: 5vmin;
   color: #878686;
 }
+
+
   body{
   display: flex;
   justify-content: center;
@@ -67,6 +90,7 @@ margin: 0 2rem;
   font-family: 'Fira Code', monospace;
   color: rgb(255, 255, 255);
   background-color: #1E1E1E;
+  
 }
 .wrapper{
   overflow: hidden;

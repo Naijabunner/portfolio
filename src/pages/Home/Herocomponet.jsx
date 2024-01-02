@@ -1,12 +1,18 @@
 import Imghero from "/src/assets/Myimg01.jpeg"
 import Resume from "/src/assets/OkechukwuDanielResume.pdf"
 import Dots from "/src/assets/Dots.png";
+import { useTypingEffect } from "../../Hooks/Typing";
 const Hero = () => {
+    const textOne = useTypingEffect("Front End Web App Developer", 50);
+    const textTwo = useTypingEffect("Transforming Frontend Flourishes into Backend Brilliance: Fulfilling Digital Aspirations through the Art of Full Stack Wizardry.", 50);
+    const textThree = useTypingEffect("Front End Web App Developer", 50);
+
+           
     return ( <>
     <section className="herowrapper">
         <div className="herotext">
-            <h2>Okechukwu Daniel is a <span>Front End Web App Developer</span> </h2>
-            <p>Transforming Frontend Flourishes into Backend Brilliance: Fulfilling Digital Aspirations through the Art of Full Stack Wizardry.</p>
+            <h2>Okechukwu Daniel is a <span className="hero_span">{textOne}</span> </h2>
+            <p>{textTwo}</p>
             <a href={Resume} download ><button className="cv_download"> Download CV</button></a>
             
         </div>
